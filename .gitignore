@@ -1,4 +1,4 @@
-# Byte-compiled / optimized
+# Byte-compiled / optimized files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -10,10 +10,12 @@ venv/
 # Logs
 *.log
 
-# OS files
+# macOS files
 .DS_Store
+
+# Windows files
 Thumbs.db
 
-# IDE / Editor
+# IDE / Editor folders
 .vscode/
 .idea/

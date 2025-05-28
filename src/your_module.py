@@ -1,3 +1,5 @@
 def core_function(x):
-    # TODO: implement emergent-entropy core
+    """
+    TODO: Implement the spectral-entropy-guided regression core.
+    """
     return 42

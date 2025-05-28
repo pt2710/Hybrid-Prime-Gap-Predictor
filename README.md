@@ -2,17 +2,17 @@
 
 _Repository slug:_ `spectral-entropy-prime-predictor`
 
-**Meta-Kognitiv Filosof · Teoretisk Fysiker · AI-Neuroarkitekt**
+**Meta-Cognitive Philosopher · Theoretical Physicist · AI-Neuroarchitect**
 
 ---
 
-## 📖 Abstract  
-Dette repository indeholder første udgave af “The Nothingness Effect” –  
-en ramme, der kombinerer emergent entropi-læring med kvanteinspirerede neurale lag.
+## Abstract
+This repository contains the initial implementation of “Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery,”  
+a hybrid framework combining emergent-entropy learning with quantum-inspired neural layers.
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 python3 -m venv venv
@@ -23,30 +23,48 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python simulate.py --config configs/default.yaml
 ```
 
-**Eksempel på LaTeX-udtryk:**  
-1230
+**Example LaTeX expression:**  
+1270
 \tilde{\mathcal{V}}_{x_n^{(i)}} \;=\;
 \frac{\displaystyle \int_{\aleph_0}^{2^{\aleph_0}} \! dx}{X_n}
 \;=\;\frac{100\%}{X_n}
-1230
+1270
 
 ---
 
-## 🗂️ Struktur
+## Project Structure
 
-- **simulate.py**: Entrypoint til simulering.  
-- **src/**: Kode for DFI-moduler og SuperPositionNeuron.  
-- **configs/**: YAML-konfigurationer for parametresæt.  
-- **tests/**: Grundlæggende enhedstests.  
+spectral-entropy-prime-predictor/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── simulate.py
+├── src/
+│ └── your_module.py
+├── configs/
+│ └── default.yaml
+├── tests/
+│ └── test_basic.py
+└── .github/
+└── workflows/
+└── ci.yml
+
+
+- **simulate.py**: Entry point for simulations.  
+- **src/**: Code for core modules (e.g., Domain-Weighted Regression).  
+- **configs/**: YAML configuration files.  
+- **tests/**: Unit tests.  
+- **.github/workflows/ci.yml**: Continuous Integration pipeline.
 
 ---
 
-## 📜 License
+## License
 
-MIT License – se [LICENSE](LICENSE) for detaljer.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
