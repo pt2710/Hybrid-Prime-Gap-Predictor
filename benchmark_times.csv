@@ -1,0 +1,4 @@
+Method,Time_per_prime_us
+C-sieve,209.1767005622387
+Miller–Rabin,42.931199073791504
+Hybrid,9.321700781583786
