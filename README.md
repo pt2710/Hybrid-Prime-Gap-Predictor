@@ -30,11 +30,11 @@ python simulate.py --config configs/default.yaml
 ```
 
 **Example LaTeX expression:**  
-1270
+1305
 \tilde{\mathcal{V}}_{x_n^{(i)}} \;=\;
 \frac{\displaystyle \int_{\aleph_0}^{2^{\aleph_0}} \! dx}{X_n}
 \;=\;\frac{100\%}{X_n}
-1270
+1305
 
 ---
 
