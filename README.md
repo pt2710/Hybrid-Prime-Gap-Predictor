@@ -1,10 +1,6 @@
 <<<<<<< HEAD
 # Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery
 
-_Repository slug:_ `spectral-entropy-prime-predictor`
-
-## Meta-Cognitive Philosopher · Theoretical Physicist · AI-Neuroarchitect
-
 ---
 
 ## Abstract
