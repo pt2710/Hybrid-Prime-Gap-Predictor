@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery
 
 _Repository slug:_ `spectral-entropy-prime-predictor`
@@ -70,3 +71,6 @@ spectral-entropy-prime-predictor/
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+=======
+# Hybrid-Prime-Gap-Predictor
+>>>>>>> d48519dd94aa64ba81375753f2eb88d74385ce17
