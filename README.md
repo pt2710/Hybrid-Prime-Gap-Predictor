@@ -2,11 +2,12 @@
 
 _Repository slug:_ `spectral-entropy-prime-predictor`
 
-**Meta-Cognitive Philosopher · Theoretical Physicist · AI-Neuroarchitect**
+## Meta-Cognitive Philosopher · Theoretical Physicist · AI-Neuroarchitect
 
 ---
 
 ## Abstract
+
 This repository contains the initial implementation of “Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery,”  
 a hybrid framework combining emergent-entropy learning with quantum-inspired neural layers.
 
@@ -56,6 +57,7 @@ spectral-entropy-prime-predictor/
 └── workflows/
 └── ci.yml
 
+---
 
 - **simulate.py**: Entry point for simulations.  
 - **src/**: Code for core modules (e.g., Domain-Weighted Regression).  
