@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 # Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery
 
 ---
 
 ## Abstract
 
-This repository contains the initial implementation of “Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery,”  
-a hybrid framework combining emergent-entropy learning with quantum-inspired neural layers.
+This repository contains the initial implementation of **Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery**:  
+a hybrid framework combining emergent-entropy learning with quantum-inspired neural layers for ultra-fast and interpretable prime discovery.
 
 ---
 
@@ -15,7 +14,7 @@ a hybrid framework combining emergent-entropy learning with quantum-inspired neu
 ```bash
 python3 -m venv venv
 source venv/bin/activate    # macOS/Linux
-venv\Scripts\activate     # Windows
+venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
@@ -28,16 +27,17 @@ python simulate.py --config configs/default.yaml
 ```
 
 **Example LaTeX expression:**  
-114
-\tilde{\mathcal{V}}_{x_n^{(i)}} \;=\;
-\frac{\displaystyle \int_{\aleph_0}^{2^{\aleph_0}} \! dx}{X_n}
-\;=\;\frac{100\%}{X_n}
-114
+```latex
+\[
+\tilde{\mathcal{V}}_{x_n^{(i)}} = \frac{\displaystyle \int_{\aleph_0}^{2^{\aleph_0}} dx}{X_n} = \frac{100\%}{X_n}
+\]
+```
 
 ---
 
 ## Project Structure
 
+```
 spectral-entropy-prime-predictor/
 ├── .gitignore
 ├── LICENSE
@@ -45,19 +45,18 @@ spectral-entropy-prime-predictor/
 ├── requirements.txt
 ├── simulate.py
 ├── src/
-│ └── your_module.py
+│   └── your_module.py
 ├── configs/
-│ └── default.yaml
+│   └── default.yaml
 ├── tests/
-│ └── test_basic.py
+│   └── test_basic.py
 └── .github/
-└── workflows/
-└── ci.yml
-
----
+    └── workflows/
+        └── ci.yml
+```
 
 - **simulate.py**: Entry point for simulations.  
-- **src/**: Code for core modules (e.g., Domain-Weighted Regression).  
+- **src/**: Core modules (e.g., Domain-Weighted Regression).  
 - **configs/**: YAML configuration files.  
 - **tests/**: Unit tests.  
 - **.github/workflows/ci.yml**: Continuous Integration pipeline.
@@ -67,6 +66,6 @@ spectral-entropy-prime-predictor/
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-=======
-# Hybrid-Prime-Gap-Predictor
->>>>>>> d48519dd94aa64ba81375753f2eb88d74385ce17
+
+---
+```
