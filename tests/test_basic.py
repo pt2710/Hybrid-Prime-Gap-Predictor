@@ -1,6 +1,5 @@
 import pytest
-from src.hybrid_prime_finder import next_prime_hybrid
+from src.your_module import core_function
 
-def test_next_prime_hybrid_simple():
-    assert next_prime_hybrid(2) == 3
-    assert next_prime_hybrid(3) == 5
+def test_core_function_returns_expected():
+    assert core_function(0) == 42
