@@ -1,11 +1,15 @@
 # Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery
 
+**If you find this project useful, please consider starring and forking it on GitHub so others can discover it too.**
+
 ---
 
 ## Abstract
 
 This repository contains the initial implementation of **Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery**:  
 a hybrid framework combining emergent-entropy learning with quantum-inspired neural layers for ultra-fast and interpretable prime discovery.
+
+![Actual vs Predicted Prime Gaps](fig_actual_vs_predicted.png)
 
 ---
 
@@ -62,10 +66,12 @@ spectral-entropy-prime-predictor/
 - **.github/workflows/ci.yml**: Continuous Integration pipeline.
 
 ---
+## Get Involved
+
+Contributions are welcome! Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
-```
