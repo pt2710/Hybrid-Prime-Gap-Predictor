@@ -2,6 +2,8 @@
 
 **Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery**
 
+**If you find this project useful, please consider starring and forking it on GitHub so others can discover it too.**
+
 ---
 
 ## Overview
@@ -10,6 +12,8 @@ This project demonstrates a small-scale framework for predicting prime gaps usin
 a combination of domain-weighted regression and spectral entropy cues.
 The code generates prime and composite sequences, smooths the raw gaps and fits a
 non-negative regression model to produce interpretable predictions.
+
+![Actual vs Predicted Prime Gaps](fig_actual_vs_predicted.png)
 
 ---
 
@@ -73,6 +77,9 @@ spectral-entropy-prime-predictor/
 - **.github/workflows/ci.yml** – Continuous Integration pipeline.
 
 ---
+## Get Involved
+
+Contributions are welcome! Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
