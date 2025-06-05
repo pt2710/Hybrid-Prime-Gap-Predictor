@@ -76,6 +76,14 @@ spectral-entropy-prime-predictor/
 - **tests/** – minimal unit tests.
 - **.github/workflows/ci.yml** – Continuous Integration pipeline.
 
+## Additional Visualizations
+
+Here are more plots that illustrate the dataset and model performance.
+
+![Domain Distribution](domain_distribution.png)
+![Gap Size Distribution](gap_size_distribution.png)
+![Residuals by Domain](residuals_by_domain_swarm.png)
+
 ---
 ## Get Involved
 
