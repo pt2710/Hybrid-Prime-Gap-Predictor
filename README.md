@@ -1,11 +1,15 @@
-# Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery
+# Hybrid Prime Gap Predictor
+
+**Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery**
 
 ---
 
-## Abstract
+## Overview
 
-This repository contains the initial implementation of **Spectral-Entropy-Guided Domain-Weighted Regression for Microsecond-Scale Prime Discovery**:  
-a hybrid framework combining emergent-entropy learning with quantum-inspired neural layers for ultra-fast and interpretable prime discovery.
+This project demonstrates a small-scale framework for predicting prime gaps using
+a combination of domain-weighted regression and spectral entropy cues.
+The code generates prime and composite sequences, smooths the raw gaps and fits a
+non-negative regression model to produce interpretable predictions.
 
 ---
 
@@ -22,11 +26,17 @@ pip install -r requirements.txt
 
 ## Usage
 
+Run the default simulation:
+
 ```bash
 python simulate.py --config configs/default.yaml
 ```
 
-**Example LaTeX expression:**  
+The repository also contains `predict_gaps.py` with the main class used to build
+and apply the hybrid model.
+
+**Example LaTeX expression:**
+
 ```latex
 \[
 \tilde{\mathcal{V}}_{x_n^{(i)}} = \frac{\displaystyle \int_{\aleph_0}^{2^{\aleph_0}} dx}{X_n} = \frac{100\%}{X_n}
@@ -39,11 +49,11 @@ python simulate.py --config configs/default.yaml
 
 ```
 spectral-entropy-prime-predictor/
-├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
 ├── simulate.py
+├── predict_gaps.py
 ├── src/
 │   └── your_module.py
 ├── configs/
@@ -55,17 +65,15 @@ spectral-entropy-prime-predictor/
         └── ci.yml
 ```
 
-- **simulate.py**: Entry point for simulations.  
-- **src/**: Core modules (e.g., Domain-Weighted Regression).  
-- **configs/**: YAML configuration files.  
-- **tests/**: Unit tests.  
-- **.github/workflows/ci.yml**: Continuous Integration pipeline.
+- **simulate.py** – entry point for simple simulations.
+- **predict_gaps.py** – regression model used for prime gap prediction.
+- **src/** – supporting modules.
+- **configs/** – YAML configuration files.
+- **tests/** – minimal unit tests.
+- **.github/workflows/ci.yml** – Continuous Integration pipeline.
 
 ---
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-```
